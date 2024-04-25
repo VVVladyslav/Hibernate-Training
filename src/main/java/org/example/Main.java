@@ -18,10 +18,10 @@ public class Main {
             e.printStackTrace();
         }
         ClientService clientService = new ClientService();
-        clientService.create("masha"); //Work if Prim Key Correct
-        clientService.getById(15); //Work
-        clientService.setName(1, "Sasha"); //WORK
-        clientService.deleteById(6); //Work
+        clientService.create("masha");
+        clientService.getById(15);
+        clientService.setName(1, "Sasha");
+        clientService.deleteById(6);
         clientService.listAll();
     }
 }
