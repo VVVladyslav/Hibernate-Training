@@ -40,5 +40,4 @@ public class Database {public static final Database INSTANCE = new Database();
         }
         return resultSet;
     }
-
 }
